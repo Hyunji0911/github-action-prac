@@ -33,7 +33,7 @@ jobs:
         run: |
           aws s3 dist \
             --region ap-northeast-2 \
-            build s3://fe-93-hyunji0911-s3 \
+            build s3://fe-93-hyunji0911 \
             --delete
         # working-directory: <?>
         working-directory: ./my-agora-states-client
